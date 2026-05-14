@@ -39,10 +39,8 @@
       "Toltek.Blue.BbbApiV3/3.0.0": {
         "dependencies": {
           "Toltek.AspNetCore.EntityFrameworkCore": "3.0.0",
-          "Toltek.Bbb.Ef": "3.0.0",
           "Toltek.Bbb.HttpApi": "3.0.0",
           "Toltek.Blue.SqlServer": "3.0.0",
-          "Toltek.Live.Abstractions": "3.0.0",
           "Toltek.Live.SqlServer": "3.0.0",
           "Toltek.Sm.HttpApi": "3.0.0",
           "Microsoft.AspNetCore.Antiforgery": "10.0.0.0",
@@ -3824,6 +3822,7 @@
         "dependencies": {
           "Toltek.BackgroundWorkers.Abstractions": "3.0.0",
           "Toltek.Data": "3.0.0",
+          "Toltek.Tasking.Abstractions": "3.0.0",
           "Toltek.Threading": "3.0.0"
         },
         "runtime": {
@@ -8041,14 +8040,14 @@
     "Toltek.Learning/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1dwTRbhizi4tdcTW/loQaIXaHTmcqAueJLALj2GZLqvt5vV8r0MweDX6dZ3RiTkBAv/CiT71gWmnKeBDFa3wmw==",
+      "sha512": "sha512-aG3vAkPANAZ4k1cKAP4sD6J9/kIjcIIi76iYxn9zH7rO9fgI17bBTrXcUK8+9FrDlARIk53r1qUkHA1ti6ac/A==",
       "path": "toltek.learning/3.0.0",
       "hashPath": "toltek.learning.3.0.0.nupkg.sha512"
     },
     "Toltek.Learning.Abstractions/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i4ejcev2YMeZ3QPFhfsGqnCAeZqEmpXc4n6uLk03phpupgeBQ6vlVi7OUoktaEHt3JPzzkHJeBNn+iNh2AUwMA==",
+      "sha512": "sha512-UIB6kb9zPsxxA0Kqbf7a9wquZKu070zTjin35RKIrrwJmxSHS02fwHDGONnZ6KqrXBTDkQXL8tZ9z4T7JplRNw==",
       "path": "toltek.learning.abstractions/3.0.0",
       "hashPath": "toltek.learning.abstractions.3.0.0.nupkg.sha512"
     },
