@@ -2810,23 +2810,6 @@
           "lib/net10.0/Toltek.AspNetCore.Files.dll": {}
         }
       },
-      "Toltek.AspNetCore.MultiTenancy/3.0.0": {
-        "dependencies": {
-          "Toltek.AspNetCore": "3.0.0",
-          "Toltek.Localization.Abstractions": "3.0.0",
-          "Toltek.MultiTenancy": "3.0.0",
-          "Toltek.Threading": "3.0.0"
-        },
-        "runtime": {
-          "lib/net10.0/Toltek.AspNetCore.MultiTenancy.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net10.0/Toltek.AspNetCore.MultiTenancy.dll": {}
-        }
-      },
       "Toltek.AspNetCore.OpenApi/3.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "10.0.7",
@@ -3264,41 +3247,6 @@
           "lib/net10.0/Toltek.Logging.Abstractions.dll": {}
         }
       },
-      "Toltek.MultiTenancy/3.0.0": {
-        "dependencies": {
-          "Toltek.Data": "3.0.0",
-          "Toltek.MultiTenancy.Abstractions": "3.0.0",
-          "Toltek.Security": "3.0.0",
-          "Toltek.Settings": "3.0.0"
-        },
-        "runtime": {
-          "lib/net10.0/Toltek.MultiTenancy.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net10.0/Toltek.MultiTenancy.dll": {}
-        }
-      },
-      "Toltek.MultiTenancy.Abstractions/3.0.0": {
-        "dependencies": {
-          "Toltek.Data.Abstractions": "3.0.0",
-          "Toltek.DependencyInjection.Abstractions": "3.0.0",
-          "Toltek.EventBus.Abstractions": "3.0.0",
-          "Toltek.Localization.Abstractions": "3.0.0",
-          "Toltek.Security.Abstractions": "3.0.0"
-        },
-        "runtime": {
-          "lib/net10.0/Toltek.MultiTenancy.Abstractions.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/net10.0/Toltek.MultiTenancy.Abstractions.dll": {}
-        }
-      },
       "Toltek.ObjectMapping/3.0.0": {
         "dependencies": {
           "Toltek": "3.0.0",
@@ -3701,6 +3649,23 @@
           "Toltek.AspNetCore.Localization.dll": {}
         }
       },
+      "Toltek.AspNetCore.MultiTenancy/3.0.0": {
+        "dependencies": {
+          "Toltek.AspNetCore": "3.0.0",
+          "Toltek.Localization.Abstractions": "3.0.0",
+          "Toltek.MultiTenancy": "3.0.0",
+          "Toltek.Threading": "3.0.0"
+        },
+        "runtime": {
+          "Toltek.AspNetCore.MultiTenancy.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        },
+        "compile": {
+          "Toltek.AspNetCore.MultiTenancy.dll": {}
+        }
+      },
       "Toltek.AspNetCore.Mvc/3.0.0": {
         "dependencies": {
           "Toltek.AspNetCore": "3.0.0",
@@ -3852,6 +3817,7 @@
       "Toltek.Bbb/3.0.0": {
         "dependencies": {
           "Toltek.AutoMapper": "3.0.0",
+          "Toltek.BackgroundWorkers.Abstractions": "3.0.0",
           "Toltek.Bbb.Abstractions": "3.0.0",
           "Toltek.Cmd": "3.0.0",
           "Toltek.Tasking.Abstractions": "3.0.0"
@@ -4378,6 +4344,7 @@
       },
       "Toltek.Live/3.0.0": {
         "dependencies": {
+          "Toltek.BackgroundWorkers.Abstractions": "3.0.0",
           "Toltek.Charts": "3.0.0",
           "Toltek.Client.Abstractions": "3.0.0",
           "Toltek.Learning.Models": "3.0.0",
@@ -4500,6 +4467,41 @@
         },
         "compile": {
           "Toltek.Metrics.Abstractions.dll": {}
+        }
+      },
+      "Toltek.MultiTenancy/3.0.0": {
+        "dependencies": {
+          "Toltek.Data": "3.0.0",
+          "Toltek.MultiTenancy.Abstractions": "3.0.0",
+          "Toltek.Security": "3.0.0",
+          "Toltek.Settings": "3.0.0"
+        },
+        "runtime": {
+          "Toltek.MultiTenancy.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        },
+        "compile": {
+          "Toltek.MultiTenancy.dll": {}
+        }
+      },
+      "Toltek.MultiTenancy.Abstractions/3.0.0": {
+        "dependencies": {
+          "Toltek.Data.Abstractions": "3.0.0",
+          "Toltek.DependencyInjection.Abstractions": "3.0.0",
+          "Toltek.EventBus.Abstractions": "3.0.0",
+          "Toltek.Localization.Abstractions": "3.0.0",
+          "Toltek.Security.Abstractions": "3.0.0"
+        },
+        "runtime": {
+          "Toltek.MultiTenancy.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        },
+        "compile": {
+          "Toltek.MultiTenancy.Abstractions.dll": {}
         }
       },
       "Toltek.OpenTelemetry/3.0.0": {
@@ -7848,13 +7850,6 @@
       "path": "toltek.aspnetcore.files/3.0.0",
       "hashPath": "toltek.aspnetcore.files.3.0.0.nupkg.sha512"
     },
-    "Toltek.AspNetCore.MultiTenancy/3.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+Mp5Z2BInrOYwNbu3DJhKlC90Vfj402iXska9nhGwYQYIFUMiT71ia5w5GVFe4brKu9xrPtrPIuX5xwQ5FxYiA==",
-      "path": "toltek.aspnetcore.multitenancy/3.0.0",
-      "hashPath": "toltek.aspnetcore.multitenancy.3.0.0.nupkg.sha512"
-    },
     "Toltek.AspNetCore.OpenApi/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -8040,14 +8035,14 @@
     "Toltek.Learning/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IS0E1QUtn2qeiTI4n/JH0UdDjIfh4XvuEcSvuk+6zyjVURmpiQg8hWxR5oVnQERQkDrRvsTcCsq+pZwm1Z75zg==",
+      "sha512": "sha512-SZb4Q1XgVaKEbMQzZTUHOPRdF829aPMbtr95Tipk48EpNoFjCSuP2uvYFyAFnKwiWQ6KvT77obKSra0CDXyuoA==",
       "path": "toltek.learning/3.0.0",
       "hashPath": "toltek.learning.3.0.0.nupkg.sha512"
     },
     "Toltek.Learning.Abstractions/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/agiAMLJlMyOjmYJ/U3pfjkkHIadh7rKr21PQg7YQUxsLfwEDCiuOthZp+8D6JQnKgDkirpVrzWgNbYh6nRhXw==",
+      "sha512": "sha512-tsNUTXKjEwHKdIOgD7IkLUxaD2ZQ8VoJARSpWsdQzx2NYDqFaRqOdkLEjLZO40S1iypaWt3luVouTj5JTfZpsQ==",
       "path": "toltek.learning.abstractions/3.0.0",
       "hashPath": "toltek.learning.abstractions.3.0.0.nupkg.sha512"
     },
@@ -8057,20 +8052,6 @@
       "sha512": "sha512-RvDPJsO/K4U3bf5x9pkdyIopHDv+FHIefhEIgMExjJ7N72Iqj9RMDQ33DHxDGFs6de0f2h4kY2TOyp5ZPn3Rlw==",
       "path": "toltek.logging.abstractions/3.0.0",
       "hashPath": "toltek.logging.abstractions.3.0.0.nupkg.sha512"
-    },
-    "Toltek.MultiTenancy/3.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VKdbbQ3z8KaMDBhnIPIw9nR5Nq1QX5lKR9eM8blGalNGNfTd4oUgz9OI0/EK44ifEUO/mXi3D+mePWWw+yuXcA==",
-      "path": "toltek.multitenancy/3.0.0",
-      "hashPath": "toltek.multitenancy.3.0.0.nupkg.sha512"
-    },
-    "Toltek.MultiTenancy.Abstractions/3.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-s4tRETEDdP03aVPNiWK6e2a+3C4SpHYqS5noRp/40Q9YFgb/XiK5UVRrYqIxlVHwwVQU3OIOsF8MStfIV2RccA==",
-      "path": "toltek.multitenancy.abstractions/3.0.0",
-      "hashPath": "toltek.multitenancy.abstractions.3.0.0.nupkg.sha512"
     },
     "Toltek.ObjectMapping/3.0.0": {
       "type": "package",
@@ -8238,6 +8219,11 @@
       "sha512": ""
     },
     "Toltek.AspNetCore.Localization/3.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Toltek.AspNetCore.MultiTenancy/3.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -8483,6 +8469,16 @@
       "sha512": ""
     },
     "Toltek.Metrics.Abstractions/3.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Toltek.MultiTenancy/3.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Toltek.MultiTenancy.Abstractions/3.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
