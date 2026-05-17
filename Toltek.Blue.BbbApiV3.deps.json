@@ -8035,14 +8035,14 @@
     "Toltek.Learning/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SZb4Q1XgVaKEbMQzZTUHOPRdF829aPMbtr95Tipk48EpNoFjCSuP2uvYFyAFnKwiWQ6KvT77obKSra0CDXyuoA==",
+      "sha512": "sha512-7fE1VyyI0CHLtXYXgzZ+8G63n9iOY463YAUYmgw5q/v/er/yH1GMZpMhu9BHMc7lN+mzqhemvFqlFjP1qXonYg==",
       "path": "toltek.learning/3.0.0",
       "hashPath": "toltek.learning.3.0.0.nupkg.sha512"
     },
     "Toltek.Learning.Abstractions/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tsNUTXKjEwHKdIOgD7IkLUxaD2ZQ8VoJARSpWsdQzx2NYDqFaRqOdkLEjLZO40S1iypaWt3luVouTj5JTfZpsQ==",
+      "sha512": "sha512-kNeDVvrx0klXgMtXbh1RYl2AzSkgPwNS1U+ZM3ZnTQSGZPscUah5przZgAG4NLxUTwv4o57Vy8f6ixLeWWABMQ==",
       "path": "toltek.learning.abstractions/3.0.0",
       "hashPath": "toltek.learning.abstractions.3.0.0.nupkg.sha512"
     },
